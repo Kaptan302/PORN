@@ -290,7 +290,7 @@ def menu_apikey():
 | )      | (___) || ) \ \__| )  \  |
 |/       (_______)|/   \__/|/    )_)                                    
 ╔══════════════════════════════════════════════════╗
-║ Creator  : KAPTAN                             ║
+║ Creator  :    KAPTAN                             ║
 ║ NOTE     :   Paid Tool😓                         ║
 ╚══════════════════════════════════════════════════╝  """)                                           
   print("\t \033[1;37m  FIRST GET APPROVEL\033[1;37m ")
@@ -500,7 +500,9 @@ def free1(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-            "user-agent":pro,})
+            "user-agent":'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+
+})
             lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
 
     cookies=cookies,
@@ -620,7 +622,9 @@ def free1(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-            "user-agent":pro,})
+            "user-agent":'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+
+})
             lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
 
     cookies=cookies,
@@ -737,7 +741,9 @@ def free1(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-            "user-agent":pro,})
+            "user-agent":'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+
+})
             lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
 
     cookies=cookies,
@@ -853,7 +859,9 @@ def free1(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-            "user-agent":pro,})
+            "user-agent":'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+
+})
             lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
 
     cookies=cookies,
